@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag workbench-python-java:$(date +%s)
+      run: docker build . --file Dockerfile --tag workbench-python-java:0.0.1
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
