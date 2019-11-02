@@ -7,6 +7,7 @@ Build it, run it, ...
 ```bash
 docker build -t drighart/workbench-python:latest .
 docker push drighart/workbench-python:latest
+```
 
 ## Bug in Visual code
 Op dit moment kun je geen double - of single quotes tikken. Dit kan verholpen
