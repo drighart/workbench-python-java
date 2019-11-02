@@ -30,3 +30,19 @@ worden door de *Keybinding.json* aan te passen met:
     }
 ]
 ```
+
+VS Code heeft een "Experimental Watcher" ingebouwd. Die lijkt beter te werken. Tenminste had ik vandaag nog geen problemen mee:
+```
+"files.useExperimentalFileWatcher": true
+```
+
+## Gebruik git
+Per repo kan er een deploykey aangemaakt worden. Deze deploykey kan gegenereerd worden
+met `ssh-keygen`
+
+Voer configuratie uit:
+```
+git clone -c core.sshCommand="ssh -i ~/rust/id_github_rust" git@github.com:drighart/rust-kubernetes.git
+git config --global user.email "david.righart@gmail.com"
+git config --global user.name "drighart"
+```
