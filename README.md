@@ -68,28 +68,28 @@ van ansiBlue goed te zetten. Je kunt de settings.json aanpassen:
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations" : {
         "terminal.background":"#151515",
-        "terminal.foreground":"#E9E9F4",
-        "terminalCursor.background":"#E9E9F4",
-        "terminalCursor.foreground":"#E9E9F4",
-        "terminal.ansiBlack":"#151515",
+        "terminal.foreground":"#B8BBC2",
+        "terminalCursor.background":"#B8BBC2",
+        "terminalCursor.foreground":"#B8BBC2",
+        "terminal.ansiBlack":"#061229",
         "terminal.ansiBlue":"#151515",
-        "terminal.ansiBrightBlack":"#626483",
-        "terminal.ansiBrightBlue":"#62D6E8",
-        "terminal.ansiBrightCyan":"#A1EFE4",
-        "terminal.ansiBrightGreen":"#EBFF87",
-        "terminal.ansiBrightMagenta":"#B45BCF",
-        "terminal.ansiBrightRed":"#EA51B2",
-        "terminal.ansiBrightWhite":"#F7F7FB",
-        "terminal.ansiBrightYellow":"#00F769",
-        "terminal.ansiCyan":"#A1EFE4",
-        "terminal.ansiGreen":"#EBFF87",
-        "terminal.ansiMagenta":"#B45BCF",
-        "terminal.ansiRed":"#EA51B2",
-        "terminal.ansiWhite":"#E9E9F4",
-        "terminal.ansiYellow":"#00F769" 
+        "terminal.ansiBrightBlack":"#717885",
+        "terminal.ansiBrightBlue":"#5299BF",
+        "terminal.ansiBrightCyan":"#72B9BF",
+        "terminal.ansiBrightGreen":"#99BF52",
+        "terminal.ansiBrightMagenta":"#9989CC",
+        "terminal.ansiBrightRed":"#D07346",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#FBD461",
+        "terminal.ansiCyan":"#72B9BF",
+        "terminal.ansiGreen":"#99BF52",
+        "terminal.ansiMagenta":"#9989CC",
+        "terminal.ansiRed":"#D07346",
+        "terminal.ansiWhite":"#B8BBC2",
+        "terminal.ansiYellow":"#FBD461"
     },
     "rust.mode": null
 }
 ```
 
-Based on: https://glitchbone.github.io/vscode-base16-term/#/dracula
+Based on: https://glitchbone.github.io/vscode-base16-term/#/phd
