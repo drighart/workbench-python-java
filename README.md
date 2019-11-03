@@ -54,6 +54,10 @@ curl https://sh.rustup.rs -sSf | sh
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
+## Key for terminal
+Het ingeven van ctrl+tilde is een lastige toetscombinatie. Gebruikt Ctrl+Alt+Z
+Deze kun je instellen in de keybindings.
+
 ## Configure colors
 Soms is de achtergrond van de terminal blauw. Dit kun je voorkomen door de setting
 van ansiBlue goed te zetten. Je kunt de settings.json aanpassen:
@@ -64,26 +68,28 @@ van ansiBlue goed te zetten. Je kunt de settings.json aanpassen:
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations" : {
         "terminal.background":"#151515",
-        "terminal.foreground":"#D0D0D0",
-        "terminalCursor.background":"#D0D0D0",
-        "terminalCursor.foreground":"#D0D0D0",
+        "terminal.foreground":"#E9E9F4",
+        "terminalCursor.background":"#E9E9F4",
+        "terminalCursor.foreground":"#E9E9F4",
         "terminal.ansiBlack":"#151515",
         "terminal.ansiBlue":"#151515",
-        "terminal.ansiBrightBlack":"#505050",
-        "terminal.ansiBrightBlue":"#6A9FB5",
-        "terminal.ansiBrightCyan":"#75B5AA",
-        "terminal.ansiBrightGreen":"#90A959",
-        "terminal.ansiBrightMagenta":"#AA759F",
-        "terminal.ansiBrightRed":"#AC4142",
-        "terminal.ansiBrightWhite":"#F5F5F5",
-        "terminal.ansiBrightYellow":"#F4BF75",
-        "terminal.ansiCyan":"#75B5AA",
-        "terminal.ansiGreen":"#90A959",
-        "terminal.ansiMagenta":"#AA759F",
-        "terminal.ansiRed":"#AC4142",
-        "terminal.ansiWhite":"#D0D0D0",
-        "terminal.ansiYellow":"#F4BF75"
+        "terminal.ansiBrightBlack":"#626483",
+        "terminal.ansiBrightBlue":"#62D6E8",
+        "terminal.ansiBrightCyan":"#A1EFE4",
+        "terminal.ansiBrightGreen":"#EBFF87",
+        "terminal.ansiBrightMagenta":"#B45BCF",
+        "terminal.ansiBrightRed":"#EA51B2",
+        "terminal.ansiBrightWhite":"#F7F7FB",
+        "terminal.ansiBrightYellow":"#00F769",
+        "terminal.ansiCyan":"#A1EFE4",
+        "terminal.ansiGreen":"#EBFF87",
+        "terminal.ansiMagenta":"#B45BCF",
+        "terminal.ansiRed":"#EA51B2",
+        "terminal.ansiWhite":"#E9E9F4",
+        "terminal.ansiYellow":"#00F769" 
     },
     "rust.mode": null
 }
 ```
+
+Based on: https://glitchbone.github.io/vscode-base16-term/#/dracula
