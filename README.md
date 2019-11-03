@@ -46,3 +46,44 @@ git clone -c core.sshCommand="ssh -i ~/rust/id_github_rust" git@github.com:drigh
 git config --global user.email "david.righart@gmail.com"
 git config --global user.name "drighart"
 ```
+
+## Install Rust/cargo
+Voer de volgende commando's uit:
+```
+curl https://sh.rustup.rs -sSf | sh
+export PATH="$HOME/.cargo/bin:$PATH"
+```
+
+## Configure colors
+Soms is de achtergrond van de terminal blauw. Dit kun je voorkomen door de setting
+van ansiBlue goed te zetten. Je kunt de settings.json aanpassen:
+
+```
+{
+    "terminal.integrated.rendererType": "dom",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations" : {
+        "terminal.background":"#151515",
+        "terminal.foreground":"#D0D0D0",
+        "terminalCursor.background":"#D0D0D0",
+        "terminalCursor.foreground":"#D0D0D0",
+        "terminal.ansiBlack":"#151515",
+        "terminal.ansiBlue":"#151515",
+        "terminal.ansiBrightBlack":"#505050",
+        "terminal.ansiBrightBlue":"#6A9FB5",
+        "terminal.ansiBrightCyan":"#75B5AA",
+        "terminal.ansiBrightGreen":"#90A959",
+        "terminal.ansiBrightMagenta":"#AA759F",
+        "terminal.ansiBrightRed":"#AC4142",
+        "terminal.ansiBrightWhite":"#F5F5F5",
+        "terminal.ansiBrightYellow":"#F4BF75",
+        "terminal.ansiCyan":"#75B5AA",
+        "terminal.ansiGreen":"#90A959",
+        "terminal.ansiMagenta":"#AA759F",
+        "terminal.ansiRed":"#AC4142",
+        "terminal.ansiWhite":"#D0D0D0",
+        "terminal.ansiYellow":"#F4BF75"
+    },
+    "rust.mode": null
+}
+```
