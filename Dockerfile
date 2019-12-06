@@ -1,5 +1,5 @@
 # FROM codercom/code-server:v2
-FROM codercom/code-server:2.1657-vsc1.39.2
+FROM codercom/code-server:2.1694-vsc1.39.2
 
 FROM drighart/workbench-python-java-base:latest
 
