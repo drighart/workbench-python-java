@@ -3,6 +3,7 @@ FROM codercom/code-server:2.1698
 
 FROM drighart/workbench-python-java-base:latest
 
+
 RUN apt-get update && apt-get install -y \
 	openssl \
 	net-tools \
