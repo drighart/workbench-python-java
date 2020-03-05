@@ -44,5 +44,6 @@ WORKDIR /home/coder
 
 COPY --from=0 /usr/local/bin/code-server /usr/local/bin/code-server
 EXPOSE 8080
+EXPOSE 8081
 
 ENTRYPOINT ["dumb-init", "code-server", "--host", "0.0.0.0"]
